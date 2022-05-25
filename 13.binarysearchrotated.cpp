@@ -9,7 +9,7 @@ int Search(vector<int> vec, int K) {
         if(vec[mid] == K){
             return mid;
         }
-        if(vec[s] < vec[mid]){
+        if(vec[s] <= vec[mid]){
             if(K <= vec[mid] && K >= vec[s]){
                 e = mid - 1;
             }
