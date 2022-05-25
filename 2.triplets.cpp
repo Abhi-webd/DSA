@@ -6,7 +6,7 @@ vector<vector<int>> triplets(vector<int> &a, int s){
     sort(a.begin(),a.end());
     vector<vector<int>> ans;
 
-    for(int i = 0 ; i < n-3 ; i++){
+    for(int i = 0 ; i <= n-3 ; i++){
         int first = i;
         int second = i+1;
         int third = n-1;
